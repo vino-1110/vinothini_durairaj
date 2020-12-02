@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title >KFC</TITLE>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		
+			 
+	</head>
+	<style>
+	body {
+	font-family: 'Allan';
+	background-image: url('bg_pic.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+	
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+bb {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+button {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+button:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+button a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+button a:hover:not(.active) {
+	color: aliceblue;
+  
+}
+
+.active {
+  background-color: #e77162;
+}
+
+	</style>
+	 
+
+	<body>
+	
+	
+		<p><h1 style="text-align: center; color: #e77162;" ><b><u>KFC</u></h1></p>
+
+			<div style="background-color: #e77162;" width=100%>
+
+			<div>
+				 <button type="button" class="btn btn-danger" ><a href="#brands">HOME</a></button>
+				 <button type="button" class="btn btn-danger" ><a href="#brands">MENU</a> </>
+				 <button type="button" class="btn btn-danger"><a href="#table">COUPONS</a></>
+				 <button type="button" class="btn btn-danger"><a href="#video">VIDEO</a></>
+				 <button  type="button"class="btn btn-danger" ><a href="login.html">LOG IN</a></>
+				 <button  type="button" class="btn btn-danger"><a href="signup.html">SIGN UP</a></>
+		
+			</div>
+
+			
+	
+		<img src="kfc7.jpg"  alt="kfc" width=100% height=600 align="center">
+		<br>
+		<br>
+		<br>
+	
+		
+		
+		<p ><h3 id="brands" >Menu Buckets:</h3></p>
+		
+		<div >
+			
+				<img src="kfc2.jpg" alt="wings" height="200" width="250" >
+				<img src="kfc3.jpg" alt="bucket chicken" height="200" width="250" >
+				<img src="kfc4.jpg" alt="burger" height="200" width="250" >
+				<img src="kfc5.jpg" alt="french fries" height="200" width="250" >
+		</div>
+		
+		<br><br><br>
+		<h3  >MENU </h3>
+		<table id="table" cellpadding ="10" cellspacing="12" >
+		<caption>
+		
+		</caption>
+		
+		<thead>
+		
+		<tr>
+			<th >S.NO</th>
+			<th >VARITIES</th>
+			<th >QUANTITY</th>
+			<th >OFFER</th>
+			<th >RATE </th>
+		</tr>
+		
+		</thead>
+		
+		<tr>
+   <th style=background-color:#add8e6 ;>1</th>
+   <th style=background-color:#add8e6;>Bucket Chicken</th>
+   <th style=background-color:#add8e6;>6pc</th>
+   <th style=background-color:#add8e6;>Buy 8 get 2 free</th>
+   <th style=background-color:#add8e6;>Rs.1000</th>
+  </tr>
+  
+  <tr>
+   <th style=background-color:#add8e6 ;>2</th>
+   <th style=background-color:#add8e6;>Burger</th>
+   <th style=background-color:#add8e6;>2 pc</th>
+   <th style=background-color:#add8e6;>Buy 3 get 1 free</th>
+   <th style=background-color:#add8e6;>Rs.750</th>
+  </tr>
+  
+  <tr>
+   <th style=background-color:#add8e6;>3</th>
+   <th style=background-color:#add8e6;>String Rolls</th>
+   <th style=background-color:#add8e6;>10 pc</th>
+   <th style=background-color:#add8e6;>Buy 12 get 3 free</th>
+   <th style=background-color:#add8e6;>Rs. 300</th>
+  </tr>
+  
+		</table>
+		
+		<p><h2>Enjoy the Day with our Snacks</h2></p>
+
+		
+        <p><h1>Sign up with us to get daily updates....</h1></p>
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="r"> Select the gender:</label><br>
+            <input id="r" type="radio" name="gender" >Male
+            <input type="radio" name="gender" >Female<br><br>
+            
+            <label for="photo" >Upload Profile Pic:</label><br>
+            <input id = "photo" type="file"><br> <br>
+            
+            <label for="date">DOB:</label> 
+            <input type="date" id="date"><br><br>
+            
+            <label for="phone">Phone Number:</label> 
+            <input type="text" id="phone" name="phone" pattern="{ 0-9}"><br><br>
+            
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="email"><br><br>
+            
+            select the os:
+            <select name="browser"  id="st"  size="1" >
+            <option> Android</delhi>
+            <option>IOS</option>
+            <option>Windows</option>
+            </select><br>
+            
+          </datalist> <br>
+            
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" name="pass" ><br><br>
+            
+            <label for="pass">Retype Password:</label><br>
+            <input type="password" id="pass" name="pass" ><br><br>
+        
+            
+            <a href="submit.html" ><input type="button" value="Submit"></a>
+            
+            <input type="reset"><br> <br>
+        </form> 
+
+
+
+
+		<footer >
+			<p><h3><b>About us: </b>   </h3>
+			<h4>Contact:</h4>    
+            <a href="mailto:vinothinid.18it@kongu.edu.com">kfc-spicy@gmail.com</a></p>
+            <h1>Designed by VINOVINI</h1>
+		</footer>
+
+	</body>
+</html>
+
+
+
+
+
